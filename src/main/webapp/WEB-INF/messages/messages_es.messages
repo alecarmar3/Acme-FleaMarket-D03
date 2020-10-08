@@ -21,3 +21,4 @@ default.placeholder.url = http://www.acme.com
 default.error.conversion = Valor incorrecto
 default.error.endpoint-unavailable = End-point no disponible
 default.error.not-authorised = Acceso no autorizado
+default.error.wrong-currency = El dinero debe ser expresado en Euros

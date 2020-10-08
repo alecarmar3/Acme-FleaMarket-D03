@@ -20,6 +20,7 @@
         `small_volume_discount` double precision,
         `text_piece` varchar(255),
         `title` varchar(255),
+        `update_date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -57,6 +58,7 @@
         `price_min_currency` varchar(255),
         `text_piece` varchar(255),
         `title` varchar(255),
+        `update_date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -68,6 +70,7 @@
         `provider_name` varchar(255),
         `stars` integer,
         `title` varchar(255),
+        `update_date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -101,6 +104,7 @@
         `provider_name` varchar(255),
         `stars` integer,
         `title` varchar(255),
+        `update_date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -111,6 +115,7 @@
         `email` varchar(255),
         `text_piece` varchar(255),
         `title` varchar(255),
+        `update_date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -122,6 +127,7 @@
         `provider_name` varchar(255),
         `stars` integer,
         `title` varchar(255),
+        `update_date` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 

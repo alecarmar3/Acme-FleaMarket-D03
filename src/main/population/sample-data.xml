@@ -23,6 +23,7 @@
 		<property name="title" value="Advertisement 1"/>
 		<property name="picture" value="http://www.advertisement1.com"/>
 		<property name="creationDate" value="2020/04/04 18:07"/>
+		<property name="updateDate" value=""/>
 		<property name="displayedUntil" value="2020/12/21 12:00"/>
 		<property name="textPiece" value="Text advertisement 1"/>
 		<property name="smallVolumeDiscount" value="0.05"/>
@@ -37,6 +38,7 @@
 		<property name="title" value="Advertisement 2"/>
 		<property name="picture" value="http://www.advertisement2.com"/>
 		<property name="creationDate" value="2019/06/10 20:40"/>
+		<property name="updateDate" value=""/>
 		<property name="displayedUntil" value="2020/01/05 12:00"/>
 		<property name="textPiece" value="Text advertisement 2"/>
 		<property name="smallVolumeDiscount" value="0.05"/>
@@ -51,6 +53,7 @@
 		<property name="title" value="Advertisement 3"/>
 		<property name="picture" value="http://www.advertisement3.com"/>
 		<property name="creationDate" value="2019/01/01 14:39"/>
+		<property name="updateDate" value=""/>
 		<property name="displayedUntil" value="2021/01/01 15:00"/>
 		<property name="textPiece" value="Text advertisement 3"/>
 		<property name="smallVolumeDiscount" value="0.05"/>
@@ -66,6 +69,7 @@
 	<bean name="figment1" class="acme.entities.Figment">
 		<property name="title" value="Figment 1"/>
 		<property name="creationDate" value="2020/07/24 08:50"/>
+		<property name="updateDate" value=""/>
 		<property name="inventorName" value="Inventor 1"/>
 		<property name="textPiece" value="Text figment 1"/>
 		<property name="priceMin" value="14 EUR"/>
@@ -75,6 +79,7 @@
 	<bean name="figment2" class="acme.entities.Figment">
 		<property name="title" value="Figment 2"/>
 		<property name="creationDate" value="2019/10/06 10:14"/>
+		<property name="updateDate" value=""/>
 		<property name="inventorName" value="Inventor 2"/>
 		<property name="textPiece" value="Text figment 2"/>
 		<property name="priceMin" value="10 EUR"/>
@@ -84,6 +89,7 @@
 	<bean name="figment3" class="acme.entities.Figment">
 		<property name="title" value="Figment 3"/>
 		<property name="creationDate" value="2020/09/30 19:45"/>
+		<property name="updateDate" value=""/>
 		<property name="inventorName" value="Inventor 3"/>
 		<property name="textPiece" value="Text figment 3"/>
 		<property name="priceMin" value="55 EUR"/>
@@ -95,6 +101,7 @@
 	<bean name="materialSheet1" class="acme.entities.MaterialSheet">
 		<property name="title" value="Material sheet 1"/>
 		<property name="description" value="Description material sheet 1"/>
+		<property name="updateDate" value=""/>
 		<property name="providerName" value="Provider 1"/>
 		<property name="homePage" value="http://www.materialSheet1.com"/>
 		<property name="stars" value="3"/>
@@ -103,6 +110,7 @@
 	<bean name="materialSheet2" class="acme.entities.MaterialSheet">
 		<property name="title" value="Material sheet 2"/>
 		<property name="description" value="Description material sheet 2"/>
+		<property name="updateDate" value=""/>
 		<property name="providerName" value="Provider 2"/>
 		<property name="homePage" value="http://www.materialSheet2.com"/>
 		<property name="stars" value="5"/>
@@ -111,6 +119,7 @@
 	<bean name="materialSheet3" class="acme.entities.MaterialSheet">
 		<property name="title" value="Material sheet 3"/>
 		<property name="description" value="Description material sheet 3"/>
+		<property name="updateDate" value=""/>
 		<property name="providerName" value="Provider 3"/>
 		<property name="homePage" value="http://www.materialSheet3.com"/>
 		<property name="stars" value="0"/>
@@ -153,6 +162,7 @@
 	<bean name="suggestion1" class="acme.entities.Suggestion">
 		<property name="title" value="Suggestion 1"/>
 		<property name="creationDate" value="2020/09/10 20:55"/>
+		<property name="updateDate" value=""/>
 		<property name="textPiece" value="Text suggestion 1"/>
 		<property name="email" value="contactemail1@gmail.com"/>
 	</bean>
@@ -160,6 +170,7 @@
 	<bean name="suggestion2" class="acme.entities.Suggestion">
 		<property name="title" value="Suggestion 2"/>
 		<property name="creationDate" value="2019/12/02 17:32"/>
+		<property name="updateDate" value=""/>
 		<property name="textPiece" value="Text suggestion 2"/>
 		<property name="email" value="contactemail2@gmail.com"/>
 	</bean>
@@ -167,6 +178,7 @@
 	<bean name="suggestion3" class="acme.entities.Suggestion">
 		<property name="title" value="Suggestion 3"/>
 		<property name="creationDate" value="2020/03/13 07:10"/>
+		<property name="updateDate" value=""/>
 		<property name="textPiece" value="Text suggestion 3"/>
 		<property name="email" value="contactemail3@gmail.com"/>
 	</bean>
@@ -176,6 +188,7 @@
 	<bean name="toolSheet1" class="acme.entities.ToolSheet">
 		<property name="title" value="Tool sheet 1"/>
 		<property name="description" value="Description tool sheet 1"/>
+		<property name="updateDate" value=""/>
 		<property name="providerName" value="Provider 1"/>
 		<property name="homePage" value="http://www.toolSheet1.com"/>
 		<property name="stars" value="4"/>
@@ -184,6 +197,7 @@
 	<bean name="toolSheet2" class="acme.entities.ToolSheet">
 		<property name="title" value="Tool sheet 2"/>
 		<property name="description" value="Description tool sheet 2"/>
+		<property name="updateDate" value=""/>
 		<property name="providerName" value="Provider 2"/>
 		<property name="homePage" value="http://www.toolSheet2.com"/>
 		<property name="stars" value="0"/>
@@ -192,6 +206,7 @@
 	<bean name="toolSheet3" class="acme.entities.ToolSheet">
 		<property name="title" value="Tool sheet 3"/>
 		<property name="description" value="Description tool sheet 3"/>
+		<property name="updateDate" value=""/>
 		<property name="providerName" value="Provider 3"/>
 		<property name="homePage" value="http://www.toolSheet3.com"/>
 		<property name="stars" value="5"/>

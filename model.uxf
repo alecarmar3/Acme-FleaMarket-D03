@@ -301,7 +301,7 @@ has v</panel_attributes>
     <coordinates>
       <x>0</x>
       <y>318</y>
-      <w>192</w>
+      <w>216</w>
       <h>144</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -312,9 +312,9 @@ Advertisement
 + creationDate: Date {NotNull, Temporal, Past}
 + displayedUntil: Date {NotNull, Temporal}
 + textPiece: String {NotBlank}
-+ smallVolumenDiscount: Double {NotNull}
-+ averageVolumenDiscount: Double {NotNull}
-+ largeVolumenDiscount: Double {NotNull}
++ smallVolumenDiscount: Double {NotNull, Min, Max}
++ averageVolumenDiscount: Double {NotNull, Min, Max}
++ largeVolumenDiscount: Double {NotNull, Min, Max}
 + smallInterval: Integer {NotNull, Min, Max}
 + averageInterval: Integer {NotNull, Min, Max}
 + largeInterval: Integer {NotNull, Min}
@@ -324,7 +324,7 @@ Advertisement
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
+      <x>222</x>
       <y>318</y>
       <w>186</w>
       <h>96</h>
