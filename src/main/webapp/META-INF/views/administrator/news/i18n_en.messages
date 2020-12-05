@@ -15,5 +15,12 @@ administrator.news.label.creation-date = Creation date
 administrator.news.label.deadline = Deadline
 administrator.news.label.body = Body
 administrator.news.label.news-links = News links
+administrator.news.label.confirm-creation = Confirm creation
 
+administrator.news.button.create = Create
 administrator.news.button.return = Return
+
+###### Errors ######
+
+administrator.news.error.past-deadline = Deadline must be in the future
+administrator.news.error.must-accept = Must confirm the creation

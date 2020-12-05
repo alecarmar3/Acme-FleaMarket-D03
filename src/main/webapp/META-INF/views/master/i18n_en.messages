@@ -49,7 +49,18 @@ master.menu.authenticated.tool-sheet.list = List Tool sheets
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
+master.menu.administrator.advertisement.list = List Advertisements
+master.menu.administrator.advertisement.create = Create Advertisements
+master.menu.administrator.figment.list = List all figments
+master.menu.administrator.figment.create = Create figment
+master.menu.administrator.material-sheet.list = List Material sheets
+master.menu.administrator.material-sheet.create = Create Material sheet
 master.menu.administrator.news.list = List all news
+master.menu.administrator.news.create = Create news
+master.menu.administrator.suggestion.list = List all suggestions
+master.menu.administrator.suggestion.create = Create suggestion
+master.menu.administrator.tool-sheet.list = List Tool sheets
+master.menu.administrator.tool-sheet.create = Create Tool sheet
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 

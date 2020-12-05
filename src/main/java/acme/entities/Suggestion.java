@@ -34,6 +34,10 @@ public class Suggestion extends DomainEntity {
 	@Past
 	private Date				creationDate;
 
+	@Temporal(TemporalType.TIMESTAMP)
+	@Past
+	private Date				updateDate;
+
 	@NotBlank
 	private String				textPiece;
 

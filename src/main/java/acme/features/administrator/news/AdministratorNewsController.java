@@ -22,10 +22,14 @@ public class AdministratorNewsController extends AbstractController<Administrato
 	@Autowired
 	private AdministratorNewsShowService	showService;
 
+	@Autowired
+	private AdministratorNewsCreateService	createService;
+
 
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
+		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
 }

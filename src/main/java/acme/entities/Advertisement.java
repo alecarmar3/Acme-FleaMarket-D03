@@ -41,6 +41,10 @@ public class Advertisement extends DomainEntity {
 	@Past
 	private Date				creationDate;
 
+	@Temporal(TemporalType.TIMESTAMP)
+	@Past
+	private Date				updateDate;
+
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date				displayedUntil;
@@ -49,12 +53,18 @@ public class Advertisement extends DomainEntity {
 	private String				textPiece;
 
 	@NotNull
+	@Min(0)
+	@Max(100)
 	private Double				smallVolumeDiscount;
 
 	@NotNull
+	@Min(0)
+	@Max(100)
 	private Double				averageVolumeDiscount;
 
 	@NotNull
+	@Min(0)
+	@Max(100)
 	private Double				largeVolumeDiscount;
 
 	@NotNull

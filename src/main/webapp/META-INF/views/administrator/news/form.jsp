@@ -19,10 +19,20 @@
 	<acme:form-textbox code="administrator.news.label.category" path="category"/>
 	<acme:form-url code="administrator.news.label.header-picture" path="headerPicture"/>
 	<acme:form-textbox code="administrator.news.label.title" path="title"/>
-	<acme:form-moment code="administrator.news.label.creation-date" path="creationDate"/>
+	
+	<jstl:if test="${command !='create' }">
+	<acme:form-moment code="administrator.news.label.creation-date" path="creationDate" readonly="true"/>
+	</jstl:if>
+	
 	<acme:form-moment code="administrator.news.label.deadline" path="deadline"/>
 	<acme:form-textarea code="administrator.news.label.body" path="body"/>
 	<acme:form-textarea code="administrator.news.label.news-links" path="newsLinks"/>
+	
+	<jstl:if test="${command =='create' }">
+	<acme:form-checkbox code="administrator.news.label.confirm-creation" path="accept"/>
+	</jstl:if>
+	
+	<acme:form-submit test="${command == 'create'}" code="administrator.news.button.create" action="/administrator/news/create"/>
 	
   	<acme:form-return code="administrator.news.button.return"/>
   	

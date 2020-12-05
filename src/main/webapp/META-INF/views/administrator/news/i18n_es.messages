@@ -15,5 +15,13 @@ administrator.news.label.creation-date = Fecha de creación
 administrator.news.label.deadline = Fecha de vencimiento
 administrator.news.label.body = Cuerpo
 administrator.news.label.news-links = Enlaces de noticias
+administrator.news.label.confirm-creation = Confirmar creación
+
+administrator.news.button.create = Crear
 
 administrator.news.button.return = Volver
+
+###### Errors ######
+
+administrator.news.error.past-deadline = La fecha de vencimiento debe estar en el futuro
+administrator.news.error.must-accept = Debe confirmar la creación
